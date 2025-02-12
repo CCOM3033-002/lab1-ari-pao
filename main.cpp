@@ -19,13 +19,13 @@ int main ()
     cout << "This program calculates the Gross and Net Box Office Profit and the Distributer's Profit of a movie playing in the theater."<<endl;
     cout << endl;
 
-    //Ingresar el nombre de la pelicula
+    //Ingresar el nombre de la película
 
         //Desplegar al usuario el mensaje
         cout << "Enter the name of the movie: ";
-        //Declarar variable del nombre de la pelicula
+        //Declarar variable del nombre de la película
         string movie_name;
-        //Pedir el nombre de la pelicula
+        //Pedir el nombre de la película
         getline (cin, movie_name);
 
     //Ingresar la cantidad de boletos para adultos vendidos.
@@ -46,9 +46,9 @@ int main ()
         //Pedir la cantidad de boletos
         cin >> child_ticket;
 
-    //Tabla de gastos y ganancias por pelicula
+    //Tabla de gastos y ganancias por película
 
-        //Desplegar titulos
+        //Desplegar títulos
         cout << left << setw(28) << "Movie Name:" << right << "\"" << movie_name << "\"" << endl;
         //Desplegar cantidad de boletos vendidos de adultos
         cout << left << setw(33) << "Adult Tickets Sold:" << right << adult_ticket << endl;
